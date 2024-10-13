@@ -23,15 +23,20 @@ public class Render {
         System.out.println("__________________________________________________________");
         System.out.println("                                                         |");
         System.out.println("   _______              _________                        |");
-        System.out.println("  |__000__| Wasser     |___000___| LP       _______      |");
-        System.out.println(" _________              _________          |__000__|     |");
-        System.out.println("|___000___| Hunger     |___000___| Spaß      Dreck       |");
+        System.out.println("  |__"+Stats.swb+"__| Wasser     |___"+Stats.slp+"___| LP       ________      |");
+        System.out.println(" _________              _________          |__"+Stats.sdreck+"__|     |");
+        System.out.println("|___"+Stats.shb+"___| Hunger     |___"+Stats.sspass+"___| Spaß      Dreck       |");
         System.out.println("                                                         |");
         System.out.println("/////////////////////////////////////////////////////////|");
         System.out.println("                                                         |");
         System.out.println("                                                         |");
         System.out.println("                                                         |");
         System.out.println("_________________________________________________________|");
+    }
+
+    public static void Waschen() {  
+        System.out.print("\033[H\033[2J");  
+        System.out.flush();  
     }
 
 }
