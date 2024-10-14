@@ -27,6 +27,7 @@ public class App {
                 break;
             case 4:
                 Render.Waschen();
+                Stats.Rechn();
                 Render.Stats();
                 break;
             case 0 :

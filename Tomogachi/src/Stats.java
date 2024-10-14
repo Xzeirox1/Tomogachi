@@ -1,16 +1,16 @@
 public class Stats {
-    private static int lp=60; // 1-100
-     public static String slp;
-    private static int hb=5; // 1-100
+    public static int lp=60; // 1-100
+    public static String slp;
+    public static int hb=5; // 1-100
     public static String shb;
-    private static int wb=100; // 1-100
+    public static int wb=99; // 1-100
     public static String swb;
-    private static String dreck = "ja"; // "ja" or "nein"
+    public static String dreck = "ja"; // "ja" or "nein"
     public static String sdreck;
-    private static int spass=40; // 1-100
+    public static int spass=40; // 1-100
     public static String sspass;
 
-    public static void main(String[] args) {
+    public static void Rechn() {
         if (lp < 10) {
             slp = "00" + lp;
         } else if (lp < 100 && lp >= 10) {
@@ -39,6 +39,6 @@ public class Stats {
             sspass = "00" + spass;
         } else if (spass < 100 && spass >= 10) {
             sspass = "0" + spass;
-        }
+        } 
     }
 }

@@ -22,10 +22,10 @@ public class Render {
     {
         System.out.println("__________________________________________________________");
         System.out.println("                                                         |");
-        System.out.println("   _______              _________                        |");
-        System.out.println("  |__"+Stats.swb+"__| Wasser     |___"+Stats.slp+"___| LP       ________      |");
-        System.out.println(" _________              _________          |__"+Stats.sdreck+"__|     |");
-        System.out.println("|___"+Stats.shb+"___| Hunger     |___"+Stats.sspass+"___| Spaß      Dreck       |");
+        System.out.println("   _________              _________                      |");
+        System.out.println("  |___"+Stats.swb+"___| Wasser     |___"+Stats.slp+"___| LP     _________    |");
+        System.out.println(" _________              _________          |__"+Stats.sdreck+"__|   |");
+        System.out.println("|___"+Stats.shb+"___| Hunger     |___"+Stats.sspass+"___| Spaß       Dreck      |");
         System.out.println("                                                         |");
         System.out.println("/////////////////////////////////////////////////////////|");
         System.out.println("                                                         |");
