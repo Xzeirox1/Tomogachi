@@ -34,6 +34,22 @@ public class Render {
         System.out.println("_________________________________________________________|");
     }
 
+    public static void Essen(){
+        System.out.println(" __________________________________________________________\r\n" + //
+                        "|                                                          |\r\n" + //
+                        "|     Getränke                               Essen         |\r\n" + //
+                        "|--------------------       |         -------------------- |\r\n" + //
+                        "|                           |                              |\r\n" + //
+                        "|Wasser      :"+Inventar.sws+"           |         Müsli     :"+Inventar.sms+"       |\r\n" + //
+                        "|Cola        :"+Inventar.scl+"           |         Burger    :"+Inventar.sbg+"       |\r\n" + //
+                        "|Orangensaft :"+Inventar.sos+"           |         Salat     :"+Inventar.ssl+"       |\r\n" + //
+                        "|WStrank     :"+Inventar.swtrank+"           |         EStrank   :"+Inventar.setrank+"       |\r\n" + //
+                        "|                                                          |\r\n" + //
+                        "|                                                          |\r\n" + //
+                        "|                                                          |\r\n" + //
+                        "|__________________________________________________________|");
+    }
+
     public static void Waschen() {  
         System.out.print("\033[H\033[2J");  
         System.out.flush();  
