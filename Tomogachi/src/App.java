@@ -14,7 +14,9 @@ public class App {
 
         switch (x) {
             case 1:
-                Render.Waschen(); 
+                Render.Waschen();
+                Inventar.Rechn();
+                Render.Essen(); 
                 System.out.println("Option 1 ");
                 break;
             case 2:
