@@ -32,7 +32,7 @@ public class App {
                 Stats.Rechn();
                 Render.Stats();
                 break;
-            case 0 :
+            case 9 :
                 Render.Waschen();
                 Render.Menu();
                 break;
@@ -41,7 +41,7 @@ public class App {
                 break;
             
         }
-        hole.close();
+     hole.close();
     }
 
 }
