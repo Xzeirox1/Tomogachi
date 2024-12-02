@@ -1,5 +1,5 @@
 public class Stats {
-    public static int lp=60; // 1-100
+    public static int lp=80; // 1-100
     public static String slp;
     public static int hb=5; // 1-100
     public static String shb;

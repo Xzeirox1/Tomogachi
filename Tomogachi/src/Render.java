@@ -10,8 +10,8 @@ public class Render {
         System.out.println("|                                  /             \\         |");
         System.out.println("|   1) füttern                    |    O     O    |        |");
         System.out.println("|   2) spielen                    |       ^       |        |");
-        System.out.println("|   3) baden                      |    \\_____/    |        |");
-        System.out.println("|   4) gesundheit                 \\              /         |");
+        System.out.println("|                                 |    \\_____/    |        |");
+        System.out.println("|   4) stats                      \\               /        |");
         System.out.println("|   5) shop                         `-._______.-'          |");
         System.out.println("|                                                          |");
         System.out.println("|__________________________________________________________|");
@@ -40,10 +40,10 @@ public class Render {
                         "|     Getränke                               Essen         |\r\n" + //
                         "|--------------------       |         -------------------- |\r\n" + //
                         "|                           |                              |\r\n" + //
-                        "|Wasser      :"+Inventar.sws+"           |         Müsli     :"+Inventar.sms+"       |\r\n" + //
-                        "|Cola        :"+Inventar.scl+"           |         Burger    :"+Inventar.sbg+"       |\r\n" + //
-                        "|Orangensaft :"+Inventar.sos+"           |         Salat     :"+Inventar.ssl+"       |\r\n" + //
-                        "|WStrank     :"+Inventar.swtrank+"           |         EStrank   :"+Inventar.setrank+"       |\r\n" + //
+                        "|1.Wasser      :"+Inventar.sws+"         |         5.Müsli     :"+Inventar.sms+"     |\r\n" + //
+                        "|2.Cola        :"+Inventar.scl+"         |         6.Burger    :"+Inventar.sbg+"     |\r\n" + //
+                        "|3.Orangensaft :"+Inventar.sos+"         |         7.Salat     :"+Inventar.ssl+"     |\r\n" + //
+                        "|4.WStrank     :"+Inventar.swtrank+"         |         8.EStrank   :"+Inventar.setrank+"     |\r\n" + //
                         "|                                                          |\r\n" + //
                         "|                                                          |\r\n" + //
                         "|                                                          |\r\n" + //
